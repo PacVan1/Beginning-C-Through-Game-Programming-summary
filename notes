@@ -1,0 +1,202 @@
+Beginning C++ Through Game Programming, Fourth Edition
+by Micheal Dawson
+
+Creating an executable file: 
+1. Text editor: text/code -> source code       (.sln)
+2. Compiler:    source code -> object code     (.obj)
+3. Linker:      object code -> executable file (.exe)
+
+Preprocessor statement (#): 
+The preprocessor runs before the compiler does and substitutes code based various directives. 
+#include for instance, copies code from an external file into the one you're calling the include statement from. 
+
+int main() { return 1; }
+resolution operator (::)
+output operator (<<) 
+extraction operator (>>)
+using namespace
+std::cout << "Hello World!" << std::endl; 
+batch file (.bat)
+iostream (input/output stream)
+arithmetic operators 
+substraction operator (-)
+addition operator (+)
+multiplication operator (*)
+division operator (/)
+combined assignment operator (+=)
+increment operator (++)
+decrement operator (--)
+postfix- and prefix increment operator 
+truncation: integer and floating point division
+floating point number
+single precision floating point numbers
+double precision floating point numbers
+modulus operator (%)
+type modifiers:
+short
+long 
+long long
+unsigned
+signed
+double
+sign bit
+char 
+bool (named after George Boole)
+float 
+int
+ASCII (American Standard Code for Information Interchange)
+typedef
+integer wrap around
+const 
+convention
+conversion
+enum
+true (any non-zero value)
+false (0)
+expression
+equal-to relational operator (==)
+if (test) {}
+else {}
+switch () {}
+case
+break
+default 
+return
+while (test) {}
+do {} while (test)
+logical NOT operator (!)
+logical AND operator (&&)
+logical OR operator (||)
+std::string
+pseudorandom numbers
+pseudocode
+for (initialization; test; action) {}
+OOP (Object Oriented Programming) 
+member selection operator (.)
+subscribting operator ([])
+C-Style string
+string literals 
+std::vector
+std::list
+vector<type>::iterator myIterator;
+vector<type>::const_iterator myConstIterator;
+dereference operator (*)
+indirect member selection operator (->)
+sequential container
+associative container
+multimap
+multiset
+priority_queue
+queue
+set
+stack
+deque
+function prototype 
+function body
+code block 
+body
+scope
+allocation
+deallocation
+encapsulation
+abstraction
+global variables
+inline
+reference 
+reference operator (&)
+pass by value
+pass by reference
+constant reference (const test&)
+constant pointer (const test*)
+pointer (test*)
+constant pointer to a constant (const test* const)
+dynamic memory
+static memory 
+null pointer
+null statement
+adress-of operator (&)
+class 
+public
+private
+void
+constructor
+default constructor
+initializer list
+member functions (methods)
+accessor member functions
+member variables
+static 
+multi paradigm
+aggregration
+has-a relationship
+is-a relationship
+friend
+deriving 
+base class 
+superclass 
+operator overloading
+stack memory
+heap memory (free store)
+memory leak
+dangling pointer
+delete 
+new 
+not
+not_eq
+operator 
+nullptr
+sizeof
+static_cast
+struct
+this
+virtual 
+override 
+auto
+continue
+
+UNKNOWN: 
+noexcept
+static_assert
+template
+thread_local
+throw
+try
+typeid
+typename
+union
+volatile
+wchar_t
+xor
+xor_eq
+catch
+alignas
+alignof
+and
+and_eq
+asm
+bitand
+bitor
+catch
+char16_t
+char32_t
+compl
+constex_pr
+const_cast
+decltype
+dynamic_cast
+explicit
+export 
+extern
+goto
+mutable
+precedence level 
+
+
+
+
+
+
+
+
+
+
