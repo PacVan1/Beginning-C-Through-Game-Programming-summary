@@ -132,8 +132,8 @@ has-a relationship
 is-a relationship
 friend
 deriving 
-base class 
-superclass 
+base class (superclass)
+derived class (subclass) 
 operator overloading
 stack memory
 heap memory (free store)
@@ -153,6 +153,20 @@ virtual
 override 
 auto
 continue
+copy constructor
+precedence level 
+member-wise copying 
+member-wise duplication
+shallow copy
+deep copy
+linked list 
+nodes 
+inheritance 
+polymorphism
+forward declaration
+overload 
+extend
+override
 
 UNKNOWN: 
 noexcept
@@ -189,7 +203,7 @@ export
 extern
 goto
 mutable
-precedence level 
+
 
 
 
