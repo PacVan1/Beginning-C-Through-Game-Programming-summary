@@ -11,27 +11,69 @@ The preprocessor runs before the compiler does and substitutes code based variou
 #include for instance, copies code from an external file into the one you're calling the include statement from. 
 
 int main() { return 1; }
+
+OPERATORS: -----------------------------------------------------------------------------------------------------
 resolution operator (::)
 output operator (<<) 
 extraction operator (>>)
+
+ARITHMETIC OPERATORS: ------------------------------------------------------------------------------------------
+- addition                  (+);
+- substraction              (-);
+- multiplication            (*);
+- division                  (/);
+- modulo                    (%);
+- adition assignment        (+=);
+- substraction assignment   (-=);
+- multiplication assignment (*=);
+- division assignment       (/=); 
+- modulo assignment         (%=);
+- increment                 (++);
+- decrement                 (--);
+
+*a is 3 and b is 2*
+addition:       int new(5) = a + b;
+substraction:   int new(1) = a - b;
+multiplication: int new(6) = a * b;
+division:       int new(1) = a * b; integer gets truncated
+modulo:         int new(1) = a % b;
+
+addition assignment:       new += a; (new = new + a)
+substraction assignment:   new -= a; (new = new - a)
+multiplication assignment: new *= a; (new = new * a)
+division assignment:       new /= a; (new = new / a)
+modulo assignment:         new %= a; (new = new % a)
+
+postfixed
+increment: new++; (new += 1)
+decrement: new--; (new -= 1)
+
+prefixed (gets evaluated earlier) 
+increment: ++new; 
+decrement: --new;
+
+logical NOT operator (!)
+logical AND operator (&&)
+reference operator (&)
+adress-of operator (&)
+member selection operator (.)
+subscribting operator ([])
+logical OR operator (||)
+dereference operator (*)
+indirect member selection operator (->)
 using namespace
 std::cout << "Hello World!" << std::endl; 
 batch file (.bat)
+solution file (.sln)
+object file (.obj)
+exectutable file (.exe)
 iostream (input/output stream)
 arithmetic operators 
-substraction operator (-)
-addition operator (+)
-multiplication operator (*)
-division operator (/)
-combined assignment operator (+=)
-increment operator (++)
-decrement operator (--)
 postfix- and prefix increment operator 
 truncation: integer and floating point division
 floating point number
 single precision floating point numbers
 double precision floating point numbers
-modulus operator (%)
 type modifiers:
 short
 long 
@@ -64,24 +106,17 @@ default
 return
 while (test) {}
 do {} while (test)
-logical NOT operator (!)
-logical AND operator (&&)
-logical OR operator (||)
 std::string
 pseudorandom numbers
 pseudocode
 for (initialization; test; action) {}
 OOP (Object Oriented Programming) 
-member selection operator (.)
-subscribting operator ([])
 C-Style string
 string literals 
 std::vector
 std::list
 vector<type>::iterator myIterator;
 vector<type>::const_iterator myConstIterator;
-dereference operator (*)
-indirect member selection operator (->)
 sequential container
 associative container
 multimap
@@ -103,7 +138,6 @@ abstraction
 global variables
 inline
 reference 
-reference operator (&)
 pass by value
 pass by reference
 constant reference (const test&)
@@ -114,7 +148,6 @@ dynamic memory
 static memory 
 null pointer
 null statement
-adress-of operator (&)
 class 
 public
 private
